@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.errorcomponent"
+}
+
 dependencies {
     //resources
     implementation project(path: ':resources:strings')

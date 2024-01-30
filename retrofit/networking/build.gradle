@@ -3,6 +3,10 @@ plugins {
 }
 
 android {
+    namespace "com.funkymuse.aurora.networking"
+}
+
+android {
     buildFeatures{
         buildConfig = true
     }

@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.bottomnavigation"
+}
+
 dependencies {
     implementation project(path: ':style:shape')
     implementation project(path: ':resources:strings')

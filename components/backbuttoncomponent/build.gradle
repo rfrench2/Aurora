@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.backbuttoncomponent"
+}
+
 dependencies {
     //resources
     implementation project(path: ':resources:strings')

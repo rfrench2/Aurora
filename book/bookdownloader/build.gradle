@@ -3,6 +3,10 @@ plugins {
     id 'kotlin-kapt'
 }
 
+android {
+    namespace "com.funkymuse.aurora.bookdownloader"
+}
+
 applyHiltDeps(this)
 applyWorkerDeps(this)
 

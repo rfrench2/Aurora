@@ -1,5 +1,10 @@
 applyComposeUIDeps(this)
 
+
+android {
+    namespace "com.funkymuse.aurora.composeextensions"
+}
+
 dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle"
     implementation "androidx.hilt:hilt-navigation-compose:$hilt_navigation_compose"

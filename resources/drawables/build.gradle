@@ -2,3 +2,7 @@ dependencies {
     implementation project(path: ':resources:colors')
 
 }
+
+android {
+    namespace "com.funkymuse.aurora.resources.drawables"
+}

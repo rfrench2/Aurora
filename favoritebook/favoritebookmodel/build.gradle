@@ -2,6 +2,10 @@ plugins {
     id 'kotlin-kapt'
 }
 
+android {
+    namespace "com.funkymuse.aurora.favoritebookmodel"
+}
+
 applyRoomDeps(this)
 applyMoshiDeps(this)
 

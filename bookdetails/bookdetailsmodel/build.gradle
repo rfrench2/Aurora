@@ -2,3 +2,8 @@ plugins {
     id 'kotlin-kapt'
 }
 applyMoshiDeps(this)
+
+/*
+android {
+    namespace "com.funkymuse.aurora.bookdetailsmodel"
+}*/

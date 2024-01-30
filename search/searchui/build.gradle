@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.searchui"
+}
+
 dependencies {
     implementation project(path: ':resources:strings')
 

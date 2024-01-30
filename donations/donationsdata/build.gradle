@@ -1,6 +1,11 @@
 plugins {
     id 'kotlin-kapt'
 }
+
+android {
+    namespace "com.funkymuse.aurora.donationsdata"
+}
+
 applyHiltDeps(this)
 applyComposeUIDeps(this)
 

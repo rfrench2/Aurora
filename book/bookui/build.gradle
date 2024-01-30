@@ -1,6 +1,10 @@
 applyComposeUIDeps(this)
 applyCoilDep(this)
 
+android {
+    namespace "com.funkymuse.aurora.bookui"
+}
+
 dependencies {
     //resources
     implementation project(path: ':resources:strings')

@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.donationsui"
+}
+
 dependencies {
     implementation project(path: ':components:scaffolds')
     implementation project(path: ':resources:strings')

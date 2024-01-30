@@ -3,6 +3,10 @@ plugins {
     id 'kotlin'
 }
 
+/*android {
+    namespace "com.funkymuse.aurora.bookgeneralbook"
+}*/
+
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7

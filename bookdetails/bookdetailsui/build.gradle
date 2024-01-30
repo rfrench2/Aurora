@@ -1,6 +1,11 @@
 plugins {
     id 'kotlin-kapt'
 }
+
+android {
+    namespace "com.funkymuse.aurora.bookdetailsui"
+}
+
 applyComposeUIDeps(this)
 applyHiltDeps(this)
 applyCoilDep(this)

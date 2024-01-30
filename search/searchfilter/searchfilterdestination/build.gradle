@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.searchfilterdestination"
+}
+
 dependencies {
     implementation project(path: ':navigator')
     implementation "com.github.FunkyMuse.Composed:navigation:$composed"

@@ -1,5 +1,9 @@
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.searchfilterui"
+}
+
 dependencies {
     implementation project(path: ':resources:strings')
     implementation project(path: ':components:radiobuttoncomponent')

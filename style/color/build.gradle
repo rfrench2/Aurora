@@ -1,1 +1,5 @@
 applyComposeUIDeps(this)
+
+android {
+    namespace "com.funkymuse.aurora.style.color"
+}

@@ -2,6 +2,10 @@ plugins {
     id 'kotlin-kapt'
 }
 
+android {
+    namespace "com.funkymuse.aurora.searchdata"
+}
+
 applyHiltDeps(this)
 applyComposeUIDeps(this)
 dependencies {

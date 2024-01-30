@@ -2,6 +2,10 @@
 
 applyComposeUIDeps(this)
 
+android {
+    namespace "com.funkymuse.aurora.style.typography"
+}
+
 dependencies {
     implementation "androidx.compose.material:material:$compose_version"
 }

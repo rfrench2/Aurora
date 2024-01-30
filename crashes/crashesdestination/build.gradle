@@ -1,3 +1,7 @@
 dependencies {
     implementation project(path: ':navigator')
 }
+
+android {
+    namespace "com.funkymuse.aurora.crashesdestination"
+}

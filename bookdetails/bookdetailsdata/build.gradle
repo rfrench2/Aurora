@@ -2,6 +2,10 @@ plugins {
     id 'kotlin-kapt'
 }
 
+android {
+    namespace "com.funkymuse.aurora.bookdetailsdata"
+}
+
 applyHiltDeps(this)
 dependencies {
     implementation project(path: ':retrofit:libgenapi')
